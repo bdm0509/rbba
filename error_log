@@ -1,0 +1,6 @@
+[04-Jan-2012 00:57:56] PHP Parse error:  syntax error, unexpected '<' in /home4/yellowta/public_html/rbba/wp-content/themes/rbba/header.php on line 37
+[04-Jan-2012 00:58:09] PHP Parse error:  syntax error, unexpected '<' in /home4/yellowta/public_html/rbba/wp-content/themes/rbba/header.php on line 37
+[04-Jan-2012 03:25:45] PHP Fatal error:  Cannot redeclare twentyeleven_excerpt_length() (previously declared in /home4/yellowta/public_html/rbba/wp-content/themes/rbba/functions.php:317) in /home4/yellowta/public_html/rbba/wp-content/themes/twentyeleven/functions.php on line 320
+[04-Jan-2012 14:37:43] PHP Fatal error:  Class 'Twenty_Eleven_Ephemera_Widget' not found in /home4/yellowta/public_html/rbba/wp-includes/widgets.php on line 324
+[04-Jan-2012 14:38:42] PHP Fatal error:  Class 'Twenty_Eleven_Ephemera_Widget' not found in /home4/yellowta/public_html/rbba/wp-includes/widgets.php on line 324
+[04-Jan-2012 15:43:21] PHP Fatal error:  Call to a member function the_title() on a non-object in /home4/yellowta/public_html/rbba/wp-content/themes/rbba/footer.php on line 21

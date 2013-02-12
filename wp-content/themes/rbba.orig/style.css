@@ -1,0 +1,274 @@
+/*
+Theme Name:	RBBA
+Theme URI:	None
+Description:	Rockwall Black Belt Academy theme, based on Twenty Eleven theme
+Author:		Brett McLaughlin
+Author URI:	http://www.yellowtagmedia.com
+Template:	twentyeleven
+Version:	0.1.0
+*/
+
+@import url("../twentyeleven/style.css");
+
+body {
+  background-color: #000;
+  padding: 0;
+}
+
+#page {
+  background-color: transparent;
+  margin: 0 auto;
+  max-width: none;  
+}
+
+/*************************************************************************
+ * Site Header
+ *************************************************************************/
+header#branding {
+  border: none;
+  height: 105px;
+  padding-bottom: 0;
+  z-index: 5000;
+}
+
+#branding img {
+  left: 456px;
+  margin: 0 auto;
+  position: absolute;
+  top: 8px;
+  width: auto;
+  z-index: 9999;
+}
+
+/*************************************************************************
+ * Site Navigation
+ *************************************************************************/
+nav#access {
+  background: none;
+  background-color: #6d0d15;
+  box-shadow: none;
+  float: none;
+  height: 29px;
+  position: relative;
+  top: 39px;
+}
+
+#access div {
+  margin: 0 auto;
+}
+
+#access ul {
+  margin-left: 22px;
+  position: relative;
+  top: 3px;
+  width: 985px;
+  z-index: 5005;
+}
+
+#access ul ul {
+  left: 11px;
+  top: 26px;
+  width: 146px;
+  z-index: 5010;
+}
+
+#access ul ul a {
+  background-color: #6D0D15;
+  border-bottom: none;
+  border-top: 1px dotted #DDD;
+  color: #fff;
+  padding: 7px;
+  width: 145px;
+  z-index: 5020;
+}
+
+#access li:hover > a,
+#access ul ul :hover > a,
+#access a:focus {
+  background: #a39999;
+}
+
+#menu-main-menu li a {
+  color: #FFF;
+  font-family: "bebas-neue-1","bebas-neue-2",sans-serif;
+  font-size: 21px;
+  letter-spacing: 1px;
+  line-height: normal;
+  padding: 0 17px;
+}
+
+li.left-menu-spacing {
+  padding-left: 85px;
+}
+
+#access .current-menu-item > a, #access .current-menu-ancestor > a, #access .current_page_item > a, #access .current_page_ancestor > a {
+  font-weight: normal;
+}
+
+#access li:hover > a,
+#access a:focus {
+  background: transparent;
+  color: #FFF;
+}
+
+/*************************************************************************
+ * Rotating Banner
+ *************************************************************************/
+#wpcontent_slider_container {
+  left: 126px;
+}
+
+#wpcontent_slider .cs-title {
+  top: 264px;
+}
+
+#wpcontent_slider h4, #wpcontent_slider h4 a {
+  font-size: 16px !important;
+  font-weight: bold;
+  position: relative;
+  top: -4px;
+}
+
+/*************************************************************************
+ * Quick Links
+ *************************************************************************/
+#quick_links {
+  padding: 50px 0 0 126px;
+}
+
+#quick_links .quick_link {
+  border: 1px white solid;
+  float: left;
+  height: 115px;
+  margin-right: 26px;
+  position: relative;
+  width: 220px;
+}
+
+.quick_link_title {
+    background: none repeat scroll 0 0 #000000;
+    bottom: 0;
+    color: #FFFFFF;
+    font-family: 'Trebuchet MS',Helvetica,sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    left: 0;
+    letter-spacing: 1px;
+    opacity: 0.8;
+    padding: 2px 0 3px 7px;
+    position: absolute;
+    width: 97%;
+    z-index: 999;
+}
+
+#colophon {
+  padding-bottom: 10px;
+  padding-top: 25px;
+  text-align: center;
+  width: 972px;
+}
+
+#colophon p {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+/*************************************************************************
+ * Page Content
+ *************************************************************************/
+.entry-content {
+  color: #fff;
+  font-size: 14px;
+  line-height: normal;
+  margin: 0 0;
+  width: 70%;
+}
+
+.singular .entry-header, .singular .entry-content, .singular footer.entry-meta, .singular #comments-title {
+  margin: 0 0;
+  width: 70%;
+}
+
+.singular.page .hentry {
+  padding: 0;
+}
+
+.entry-content h2 {
+  font-size: 19px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.entry-content h3 {
+  font-size: 14px;
+  font-style: italic;
+  letter-spacing: normal;
+  line-height: normal;
+  margin-bottom: 20px;
+  text-transform: none;
+}
+
+.entry-content ul {
+  list-style: circle outside none;
+}
+
+.entry-content ul, ol {
+  margin-left: 10px;
+}
+
+.entry-content ul li, ol li {
+  margin-bottom: 16px;
+}
+
+/*************************************************************************
+ * Accordion (FAQ)
+ *************************************************************************/
+#faq {
+  margin-top: 20px;
+}
+
+.accordion h3 {
+  border-top: 1px solid #da0012;
+  font-style: normal;
+  font-weight: bold;
+  margin-bottom: 0;
+  padding: 10px 0;
+}
+
+.ui-accordion-content {
+  padding-bottom: 10px;
+}
+
+.accordion h3 a {
+  color: #fff;
+}
+
+/*************************************************************************
+ * Generic Rules
+ *************************************************************************/
+.highlight {
+  color: #da0012;
+}
+
+img[class*="align"], img[class*="wp-image-"], #content .gallery .gallery-icon img {
+  border: 1px solid #fff;
+  padding: 0;
+}
+
+img[class*="wp-image-"], #content .gallery .gallery-icon img {
+  border: 1px solid #fff !important;
+}
+
+a:focus,
+a:active,
+a:hover {
+  text-decoration: none;
+}
+
+/*************************************************************************
+ * Admin Interface
+ *************************************************************************/
+.singular .entry-meta .edit-link a {
+  left: -2px;
+  top: -4px;
+}
